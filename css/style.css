@@ -1,0 +1,57 @@
+body {
+  background-color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: white;
+  text-shadow: 1px 1px 2px black, 0px 0px 1em #20487D,
+    0 0 0.2em #20487D;
+}
+
+ul {
+  width: 100px;
+}
+
+a {
+  color: black;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  font-weight: 500;
+  text-shadow: 1px 1px 5px black, 0px 0px 1em #315F93, 0 0 0.2em #315F93;
+}
+
+.card {
+  margin: auto;
+  padding: 1px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  width: 400px;
+  height: 200px;
+  background: url("../assets/backgorund.png");
+  background-size: cover;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.card:hover {
+  width: 430px;
+  height: 220px;
+  box-shadow: 0 0 1.5rem white;
+}
+
+.instagram {
+  list-style-image: url("../assets/Insta.png");
+}
+
+.twitter {
+  list-style-image: url("../assets/Twitter.png");
+}
+
+.whatsapp {
+  list-style-image: url("../assets/wpp.png");
+}
